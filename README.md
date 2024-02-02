@@ -1,5 +1,11 @@
 # Shadowrocket Config
 
+## What is this?
+
+This is a git-based config file for shadowsocks ios client.
+
+The main objective is to centralize config management among multiple devices.
+
 ## How to use
 Open your Shadowrocket client on and add configuration:
  - from url: `https://raw.githubusercontent.com/gragragrab/shadowrocket-conf/main/shadowrocket.conf`
