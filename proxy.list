@@ -1,0 +1,222 @@
+# SOURCE: https://github.com/gragragrab/shadowrocket-conf
+
+# General
+DOMAIN-SUFFIX,dyson.com
+DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,canva.com
+
+
+# Facebook services: fb, whatsapp, instagram
+# DOMAIN-SUFFIX,facebook.com
+# DOMAIN-SUFFIX,connect.facebook.net
+# DOMAIN-SUFFIX,graph.facebook.com
+# DOMAIN-SUFFIX,gateway.facebook.com
+# DOMAIN-SUFFIX,edge-chat.facebook.com
+# DOMAIN-SUFFIX,l.facebook.com
+# DOMAIN-SUFFIX,fb.com
+# DOMAIN-SUFFIX,fb.me
+# DOMAIN-SUFFIX,fbsbx.com
+# DOMAIN-SUFFIX,f.vision
+# DOMAIN-SUFFIX,fbcdn.net
+# DOMAIN-SUFFIX,cdnfacebook.com
+# DOMAIN-SUFFIX,fburl.com
+# DOMAIN-SUFFIX,fb.me
+# DOMAIN-SUFFIX,fbcdn.net
+# DOMAIN-SUFFIX,meta.com
+DOMAIN-KEYWORD,facebook
+
+# DOMAIN-SUFFIX,cdninstagram.com,force-remote-dns
+# DOMAIN-SUFFIX,cdnfbsbx.com,force-remote-dns
+# DOMAIN-SUFFIX,instagram.com
+# DOMAIN-SUFFIX,igcdn.com
+DOMAIN-KEYWORD,instagram
+
+
+# Google services: youtube etc
+DOMAIN-KEYWORD,youtube
+
+
+# Twitter
+# DOMAIN-SUFFIX,t.co
+# DOMAIN-SUFFIX,twitter.com
+# DOMAIN-SUFFIX,twimg.com
+# DOMAIN-SUFFIX,twitter.co
+# DOMAIN-SUFFIX,twitthat.com
+# DOMAIN-SUFFIX,twtkr.com
+# DOMAIN-SUFFIX,twttr.com
+# DOMAIN-SUFFIX,x.com
+DOMAIN-KEYWORD,twitter
+
+# Linkedin
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,lnkd.in
+DOMAIN-SUFFIX,licdn.com
+
+
+
+# Top blocked sites
+# DOMAIN-KEYWORD,gmail
+# DOMAIN-KEYWORD,pixiv
+# DOMAIN-SUFFIX,netpeaksoftware.com
+# DOMAIN-SUFFIX,quora.com
+# DOMAIN-SUFFIX,proton.me
+# DOMAIN-SUFFIX,soundcloud.com
+# DOMAIN-SUFFIX,kenengba.com
+# DOMAIN-SUFFIX,akamai.net
+# DOMAIN-SUFFIX,whatsapp.net
+# DOMAIN-SUFFIX,whatsapp.com
+# DOMAIN-SUFFIX,snapchat.com
+# DOMAIN-SUFFIX,amazonaws.com
+# DOMAIN-SUFFIX,angularjs.org
+# DOMAIN-SUFFIX,akamaihd.net
+# DOMAIN-SUFFIX,amazon.com
+# DOMAIN-SUFFIX,bit.ly
+# DOMAIN-SUFFIX,bitbucket.org
+# DOMAIN-SUFFIX,blog.com
+# DOMAIN-SUFFIX,blogcdn.com
+# DOMAIN-SUFFIX,blogsmithmedia.com
+# DOMAIN-SUFFIX,box.net
+# DOMAIN-SUFFIX,bloomberg.com
+# DOMAIN-SUFFIX,cl.ly
+# DOMAIN-SUFFIX,cloudfront.net
+# DOMAIN-SUFFIX,cloudflare.com
+# DOMAIN-SUFFIX,cocoapods.org
+# DOMAIN-SUFFIX,dribbble.com
+# DOMAIN-SUFFIX,dropbox.com
+# DOMAIN-SUFFIX,dropboxstatic.com
+# DOMAIN-SUFFIX,dropboxusercontent.com
+# DOMAIN-SUFFIX,docker.com
+# DOMAIN-SUFFIX,duckduckgo.com
+# DOMAIN-SUFFIX,digicert.com
+# DOMAIN-SUFFIX,dnsimple.com
+# DOMAIN-SUFFIX,edgecastcdn.net
+# DOMAIN-SUFFIX,engadget.com
+# DOMAIN-SUFFIX,eurekavpt.com
+# DOMAIN-SUFFIX,fc2.com
+# DOMAIN-SUFFIX,feedburner.com
+# DOMAIN-SUFFIX,fabric.io
+# DOMAIN-SUFFIX,flickr.com
+# DOMAIN-SUFFIX,fastly.net
+# DOMAIN-SUFFIX,github.com
+# DOMAIN-SUFFIX,github.io
+# DOMAIN-SUFFIX,githubusercontent.com
+# DOMAIN-SUFFIX,goo.gl
+# DOMAIN-SUFFIX,godaddy.com
+# DOMAIN-SUFFIX,imageshack.us
+# DOMAIN-SUFFIX,imgur.com
+# DOMAIN-SUFFIX,jshint.com
+# DOMAIN-SUFFIX,ift.tt
+# DOMAIN-SUFFIX,j.mp
+# DOMAIN-SUFFIX,kat.cr
+# DOMAIN-SUFFIX,lithium.com
+# DOMAIN-SUFFIX,megaupload.com
+# DOMAIN-SUFFIX,mobile01.com
+# DOMAIN-SUFFIX,modmyi.com
+# DOMAIN-SUFFIX,nytimes.com
+# DOMAIN-SUFFIX,name.com
+# DOMAIN-SUFFIX,openvpn.net
+# DOMAIN-SUFFIX,openwrt.org
+# DOMAIN-SUFFIX,ow.ly
+# DOMAIN-SUFFIX,pinboard.in
+# DOMAIN-SUFFIX,ssl-images-amazon.com
+# DOMAIN-SUFFIX,sstatic.net
+# DOMAIN-SUFFIX,stackoverflow.com
+# DOMAIN-SUFFIX,staticflickr.com
+# DOMAIN-SUFFIX,squarespace.com
+# DOMAIN-SUFFIX,symcd.com
+# DOMAIN-SUFFIX,symcb.com
+# DOMAIN-SUFFIX,symauth.com
+# DOMAIN-SUFFIX,ubnt.com
+# DOMAIN-SUFFIX,thepiratebay.org
+# DOMAIN-SUFFIX,tumblr.com
+# DOMAIN-SUFFIX,twitch.tv
+
+# DOMAIN-SUFFIX,wikipedia.com
+# DOMAIN-SUFFIX,wikipedia.org
+# DOMAIN-SUFFIX,wikimedia.org
+# DOMAIN-SUFFIX,wordpress.com
+# DOMAIN-SUFFIX,wsj.com
+# DOMAIN-SUFFIX,wsj.net
+# DOMAIN-SUFFIX,wp.com
+# DOMAIN-SUFFIX,vimeo.com
+# DOMAIN-SUFFIX,vimeocdn.com
+# DOMAIN-SUFFIX,tapbots.com
+# DOMAIN-SUFFIX,medium.com
+# DOMAIN-SUFFIX,fast.com
+# DOMAIN-SUFFIX,nflxvideo.net
+# DOMAIN-SUFFIX,netflix.com
+# DOMAIN-SUFFIX,bing.com
+
+# ChatGPT
+# DOMAIN,api.statsig.com
+# DOMAIN,browser-intake-datadoghq.com
+# DOMAIN,chat.openai.com.cdn.cloudflare.net
+# DOMAIN,o33249.ingest.sentry.io
+# DOMAIN,openai-api.arkoselabs.com
+# DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+# DOMAIN,openaicomproductionae4b.blob.core.windows.net
+# DOMAIN,production-openaicom-storage.azureedge.net
+# DOMAIN,static.cloudflareinsights.com
+# DOMAIN-KEYWORD,openaicom-api
+# DOMAIN-SUFFIX,algolia.net
+# DOMAIN-SUFFIX,auth0.com
+# DOMAIN-SUFFIX,cdn.cloudflare.net
+# DOMAIN-SUFFIX,challenges.cloudflare.com
+# DOMAIN-SUFFIX,chatgpt.livekit.cloud
+# DOMAIN-SUFFIX,client-api.arkoselabs.com
+# DOMAIN-SUFFIX,events.statsigapi.net
+# DOMAIN-SUFFIX,featuregates.org
+# DOMAIN-SUFFIX,host.livekit.cloud
+# DOMAIN-SUFFIX,identrust.com
+# DOMAIN-SUFFIX,intercom.io
+# DOMAIN-SUFFIX,intercomcdn.com
+# DOMAIN-SUFFIX,launchdarkly.com
+# DOMAIN-SUFFIX,oaistatic.com
+# DOMAIN-SUFFIX,oaiusercontent.com
+# DOMAIN-SUFFIX,observeit.net
+# DOMAIN-SUFFIX,openai.com
+# DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+# DOMAIN-SUFFIX,openaicom.imgix.net
+# DOMAIN-SUFFIX,poe.com
+# DOMAIN-SUFFIX,segment.io
+# DOMAIN-SUFFIX,sentry.io
+# DOMAIN-SUFFIX,stripe.com
+# DOMAIN-SUFFIX,turn.livekit.cloud
+# IP-CIDR,24.199.123.28/32,no-resolve
+# IP-CIDR,45.76.214.191/32,no-resolve
+# IP-CIDR,64.23.132.171/32,no-resolve
+# IP-CIDR,143.198.200.27/32,no-resolve
+# IP-CIDR,159.89.204.203/32,no-resolve
+
+# Telegram
+# DOMAIN-SUFFIX,t.me
+# DOMAIN-SUFFIX,tdesktop.com
+# DOMAIN-SUFFIX,telegra.ph
+# DOMAIN-SUFFIX,telegram.me
+# DOMAIN-SUFFIX,telegram.org
+# DOMAIN-SUFFIX,telesco.pe
+# IP-CIDR,91.108.4.0/22,no-resolve
+# IP-CIDR,91.108.8.0/22,no-resolve
+# IP-CIDR,91.108.12.0/22,no-resolve
+# IP-CIDR,91.108.16.0/22,no-resolve
+# IP-CIDR,91.108.56.0/22,no-resolve
+# IP-CIDR,109.239.140.0/24,no-resolve
+# IP-CIDR,149.154.160.0/20,no-resolve
+# IP-CIDR,2001:B28:F23D::/48,no-resolve
+# IP-CIDR,2001:B28:F23F::/48,no-resolve
+# IP-CIDR,2001:67C:4E8::/48,no-resolve
+
+
+# DNS Leak
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,dnsleak.com
+DOMAIN-SUFFIX,expressvpn.com
+DOMAIN-SUFFIX,nordvpn.com
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,perfect-privacy.com
+DOMAIN-SUFFIX,vpnunlimited.com
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,whrq.net
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
