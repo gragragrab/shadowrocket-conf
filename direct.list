@@ -1,52 +1,10 @@
 # SOURCE: https://github.com/gragragrab/shadowrocket-conf
 
-# LAN
-IP-CIDR,10.0.0.0/8
-IP-CIDR,127.0.0.0/8
-IP-CIDR,172.16.0.0/12
-IP-CIDR,192.168.0.0/16
-
-# DOMAIN-SUFFIX,ykimg.com
-
-# Accelerate most visited sites
-# DOMAIN,file-igamecj.akamaized.net
-# DOMAIN,images-cn.ssl-images-amazon.com
-# DOMAIN,officecdn-microsoft-com.akamaized.net
-# DOMAIN-SUFFIX,steam-chat.com
-# DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-# DOMAIN-SUFFIX,steamcontent.com
-# DOMAIN-SUFFIX,steamgames.com
-# DOMAIN-SUFFIX,steampowered.com
-# DOMAIN-SUFFIX,steamstat.us
-# DOMAIN-SUFFIX,steamstatic.com
-# DOMAIN-SUFFIX,steamusercontent.com
-# DOMAIN-SUFFIX,test-ipv6.com
-# DOMAIN-SUFFIX,un.org
-# DOMAIN-SUFFIX,uning.com
-# DOMAIN-SUFFIX,visualstudio.com
-# DOMAIN-SUFFIX,weather.com
-# DOMAIN-SUFFIX,whatismyip.com
-# DOMAIN-SUFFIX,windows.com
-# DOMAIN-SUFFIX,windowsupdate.com
-# DOMAIN-SUFFIX,worldbank.org
-# DOMAIN-SUFFIX,worldscientific.com
-
-
-# Remove these lines below if you don't have trouble accessing Apple resources
-# DOMAIN,www-cdn.icloud.com.akadns.net
-# DOMAIN-SUFFIX,aaplimg.com
-# DOMAIN-SUFFIX,apple-cloudkit.com
-# DOMAIN-SUFFIX,apple.co
-# DOMAIN-SUFFIX,apple.com
-# DOMAIN-SUFFIX,apple.news
-# DOMAIN-SUFFIX,apple.com.cn
-# DOMAIN-SUFFIX,appstore.com
-# DOMAIN-SUFFIX,cdn-apple.com
-# DOMAIN-SUFFIX,crashlytics.com
-# DOMAIN-SUFFIX,icloud-content.com
-# DOMAIN-SUFFIX,icloud.com
-# DOMAIN-SUFFIX,icloud.com.cn
-# DOMAIN-SUFFIX,me.com
-# DOMAIN-SUFFIX,mzstatic.com
-
-
+DOMAIN-SUFFIX,.ru
+DOMAIN-SUFFIX,.com.ru
+DOMAIN-SUFFIX,.exnet.su
+DOMAIN-SUFFIX,.ru.net
+DOMAIN-SUFFIX,.pp.ru
+DOMAIN-SUFFIX,.net.ru
+DOMAIN-SUFFIX,.org.ru
+GEOIP,RU
