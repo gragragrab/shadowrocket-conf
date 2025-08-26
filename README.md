@@ -7,14 +7,26 @@ This is a git-based config file for shadowsocks ios client.
 The main objective is to centralize config management among multiple devices.
 
 ## How to use
-Open your Shadowrocket client on and add configuration:
- - from url: `https://raw.githubusercontent.com/gragragrab/shadowrocket-conf/main/shadowrocket.conf`
- - or scan the QR code below
+
+Open your Shadowrocket client and add configuration:
+
+- **From URL:** `https://raw.githubusercontent.com/gragragrab/shadowrocket-conf/main/shadowrocket.conf`
+- **Or scan the QR code below:**
 
 ![QR code](https://raw.githubusercontent.com/gragragrab/shadowrocket-conf/main/images/config-qr.png)
 
-## Reference:
- - [Configuration file format](https://manual.nssurge.com)
+### Then configure:
+
+- **Data** → Proxy Enable Logging → Turn Off
+- **Settings** → Proxy → Compatibility Mode → Turn On
+- **Settings** → Proxy → Proxy Share → Enable Share → Turn On
+- **Settings** → Diagnostics → Enable Logging → Turn Off
+- **Settings** → Config → Auto Background Update → Turn On
+
+## Reference
+
+- [Configuration file format](https://manual.nssurge.com)
+- [misha-tgshv repository](https://github.com/misha-tgshv/shadowrocket-configuration-file)
 
 ## Streisand app routes
 
